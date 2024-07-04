@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/client
+# Install script for directory: C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

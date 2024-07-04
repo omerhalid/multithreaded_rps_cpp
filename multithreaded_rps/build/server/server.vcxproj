@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8DC90051-6C75-37B2-B8F7-732C1E424E9E}</ProjectGuid>
+    <ProjectGuid>{128C21E6-4814-3E46-A863-FF306A6AC36A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">server.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">server</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">server.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">server</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">server.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">server</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">server.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">server</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -116,8 +116,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/Debug/server.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/Debug/server.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/Debug/server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/Debug/server.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -156,8 +156,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/Release/server.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/Release/server.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/Release/server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/Release/server.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -198,8 +198,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/MinSizeRel/server.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/MinSizeRel/server.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/MinSizeRel/server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/MinSizeRel/server.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -239,8 +239,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/RelWithDebInfo/server.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/RelWithDebInfo/server.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/RelWithDebInfo/server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/RelWithDebInfo/server.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -248,11 +248,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/server/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/server/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,11 +261,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/server/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/server/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,11 +274,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/server/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/server/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,11 +287,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/server/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/server/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/server/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/server/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -300,22 +300,22 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\main.cpp" />
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\server.cpp" />
-    <ClInclude Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\server.h" />
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\high_score_board.cpp" />
-    <ClInclude Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\high_score_board.h" />
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\game_logic.cpp" />
-    <ClInclude Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\game_logic.h" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\main.cpp" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\server.cpp" />
+    <ClInclude Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\server.h" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\high_score_board.cpp" />
+    <ClInclude Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\high_score_board.h" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\game_logic.cpp" />
+    <ClInclude Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\game_logic.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\ZERO_CHECK.vcxproj">
-      <Project>{CEEBDBD2-F2F2-3882-98EA-86951D77077E}</Project>
+    <ProjectReference Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\ZERO_CHECK.vcxproj">
+      <Project>{FCCEE040-905E-3784-ADF9-947546D77955}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

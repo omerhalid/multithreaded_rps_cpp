@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\CMakeFiles\21c6fabef2693a600150e61b91bffa96\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\CMakeFiles\02ea1ed8c3139a560b35f8700efad055\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{064CCBD0-9271-3941-BAB4-DAA242293C76}</UniqueIdentifier>
+      <UniqueIdentifier>{AA3719EB-44EC-3594-A4BC-9160E9B8C92F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

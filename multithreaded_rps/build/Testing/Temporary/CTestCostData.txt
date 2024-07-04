@@ -1,5 +1,5 @@
-test_game_logic 12 0.0142976
-test_high_score_board 10 0.00909817
-test_concurrency 2 0.0553601
-test_server_client_connections 1 2.12859
+test_game_logic 1 0.0917851
+test_high_score_board 1 0.0588745
+test_concurrency 1 0.0618753
+test_server_client_connections 1 2.08143
 ---

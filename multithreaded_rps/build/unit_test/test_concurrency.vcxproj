@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{40EBFEE2-E582-3E37-983B-4C45879AA673}</ProjectGuid>
+    <ProjectGuid>{CFD40171-A97F-3A89-8B87-E04A733B3704}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_concurrency.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_concurrency</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_concurrency.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_concurrency</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_concurrency.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_concurrency</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_concurrency.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_concurrency</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,8 +86,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_concurrency.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_concurrency.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/Debug/test_concurrency.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/Debug/test_concurrency.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,8 +130,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,8 +164,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Release/test_concurrency.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Release/test_concurrency.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/Release/test_concurrency.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/Release/test_concurrency.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,8 +174,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -194,10 +194,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -210,8 +210,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/MinSizeRel/test_concurrency.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/MinSizeRel/test_concurrency.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/MinSizeRel/test_concurrency.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/MinSizeRel/test_concurrency.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -220,8 +220,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest/include" /external:I "C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest\include;C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,8 +255,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/RelWithDebInfo/test_concurrency.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/RelWithDebInfo/test_concurrency.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/RelWithDebInfo/test_concurrency.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/RelWithDebInfo/test_concurrency.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,11 +264,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\unit_test\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\unit_test\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/unit_test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/unit_test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,11 +277,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/unit_test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/unit_test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,11 +290,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/unit_test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/unit_test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,11 +303,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/unit_test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/unit_test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps -BC:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build --check-stamp-file C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/unit_test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -316,27 +316,27 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\unit_test\test_concurrency.cpp" />
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\high_score_board.cpp" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\unit_test\test_concurrency.cpp" />
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\high_score_board.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\ZERO_CHECK.vcxproj">
-      <Project>{CEEBDBD2-F2F2-3882-98EA-86951D77077E}</Project>
+    <ProjectReference Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\ZERO_CHECK.vcxproj">
+      <Project>{FCCEE040-905E-3784-ADF9-947546D77955}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\googletest\googletest\gtest.vcxproj">
-      <Project>{79CE935A-9476-36FB-A1B4-41D1CA35F9AA}</Project>
+    <ProjectReference Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\googletest\googletest\gtest.vcxproj">
+      <Project>{F2D0A010-F5FB-3A37-BDD4-2D3A37C4D49D}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\googletest\googletest\gtest_main.vcxproj">
-      <Project>{54845F71-727F-3609-852B-4B400C9365FF}</Project>
+    <ProjectReference Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\googletest\googletest\gtest_main.vcxproj">
+      <Project>{67705EAB-B3A5-3350-B186-25FBF0DFEA65}</Project>
       <Name>gtest_main</Name>
     </ProjectReference>
   </ItemGroup>

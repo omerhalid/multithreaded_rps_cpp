@@ -2,28 +2,28 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\client\Debug\client.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\client\Debug\client.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\server\Debug\server.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\Debug\server.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\test_concurrency.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\test_concurrency.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\test_game_logic.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\test_game_logic.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\test_high_score_board.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\test_high_score_board.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\test_server_client_connections.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\test_server_client_connections.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

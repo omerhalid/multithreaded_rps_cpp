@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\unit_test\test_server_client_connections.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\unit_test\test_server_client_connections.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\server.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\high_score_board.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\high_score_board.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client\client.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client\client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\server\game_logic.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\server\game_logic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\unit_test\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\unit_test\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5F69F5CF-EFB3-3510-B7DD-F6243D93D9FD}</UniqueIdentifier>
+      <UniqueIdentifier>{8BEBF7E0-0AA7-3C9C-8D93-6EB0C96EFB1D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

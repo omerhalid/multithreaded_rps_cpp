@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\unit_test\Debug\test_server_client_connections.exe</FullPath>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\unit_test\Debug\test_server_client_connections.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

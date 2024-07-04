@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client\main.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client\client.cpp">
+    <ClCompile Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client\client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client\client.h">
+    <ClInclude Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client\client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\client\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\client\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{86046026-4F7C-365A-BD36-004CA4CB4D0E}</UniqueIdentifier>
+      <UniqueIdentifier>{85D5C27E-7023-38F3-860C-7FED5DBF0B46}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5F69F5CF-EFB3-3510-B7DD-F6243D93D9FD}</UniqueIdentifier>
+      <UniqueIdentifier>{8BEBF7E0-0AA7-3C9C-8D93-6EB0C96EFB1D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

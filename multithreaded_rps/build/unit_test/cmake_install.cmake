@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/unit_test
+# Install script for directory: C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/unit_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/googletest/cmake_install.cmake")
+  include("C:/Users/katka/source/fix_nokia_repo/multithreaded_rps_cpp/multithreaded_rps/build/googletest/cmake_install.cmake")
 
 endif()
 
