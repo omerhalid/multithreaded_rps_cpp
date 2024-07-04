@@ -1,0 +1,10 @@
+^C:\USERS\KATKA\SOURCE\NOKIA_HOMEWORK_OMER\MULTITHREADED_RPS\BUILD\CMAKEFILES\21C6FABEF2693A600150E61B91BFFA96\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/katka/source/nokia_homework_omer/multithreaded_rps -BC:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/MultithreadedRPS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

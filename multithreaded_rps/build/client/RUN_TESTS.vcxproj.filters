@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\build\CMakeFiles\139a8d5fc73be1dcc8e7e2daf0ab8f1e\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{064CCBD0-9271-3941-BAB4-DAA242293C76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
