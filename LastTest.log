@@ -1,0 +1,131 @@
+Start testing: Jul 04 23:02 Central Europe Summer Time
+----------------------------------------------------------
+1/4 Testing: test_game_logic
+1/4 Test: test_game_logic
+Command: "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_game_logic.exe"
+Directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test
+"test_game_logic" start time: Jul 04 23:02 Central Europe Summer Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\src\gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from GameLogicTest
+[ RUN      ] GameLogicTest.RockBeatsScissors
+[       OK ] GameLogicTest.RockBeatsScissors (0 ms)
+[ RUN      ] GameLogicTest.ScissorsBeatsPaper
+[       OK ] GameLogicTest.ScissorsBeatsPaper (0 ms)
+[ RUN      ] GameLogicTest.PaperBeatsRock
+[       OK ] GameLogicTest.PaperBeatsRock (0 ms)
+[ RUN      ] GameLogicTest.SameChoiceDraw
+[       OK ] GameLogicTest.SameChoiceDraw (0 ms)
+[ RUN      ] GameLogicTest.InvalidInputs
+[       OK ] GameLogicTest.InvalidInputs (0 ms)
+[----------] 5 tests from GameLogicTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_game_logic" end time: Jul 04 23:02 Central Europe Summer Time
+"test_game_logic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_high_score_board
+2/4 Test: test_high_score_board
+Command: "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_high_score_board.exe"
+Directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test
+"test_high_score_board" start time: Jul 04 23:02 Central Europe Summer Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\src\gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from HighScoreBoardTest
+[ RUN      ] HighScoreBoardTest.AddNewScore
+[       OK ] HighScoreBoardTest.AddNewScore (0 ms)
+[ RUN      ] HighScoreBoardTest.UpdateExistingScore
+[       OK ] HighScoreBoardTest.UpdateExistingScore (0 ms)
+[ RUN      ] HighScoreBoardTest.KeepTop10Scores
+[       OK ] HighScoreBoardTest.KeepTop10Scores (0 ms)
+[ RUN      ] HighScoreBoardTest.VeryHighScores
+[       OK ] HighScoreBoardTest.VeryHighScores (0 ms)
+[----------] 4 tests from HighScoreBoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"test_high_score_board" end time: Jul 04 23:02 Central Europe Summer Time
+"test_high_score_board" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_concurrency
+3/4 Test: test_concurrency
+Command: "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_concurrency.exe"
+Directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test
+"test_concurrency" start time: Jul 04 23:02 Central Europe Summer Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HighScoreBoardTest
+[ RUN      ] HighScoreBoardTest.ConcurrentUpdates
+Charlie9: 138
+Charlie8: 137
+Charlie7: 136
+Charlie6: 135
+Charlie5: 134
+Charlie4: 133
+Charlie3: 132
+Charlie2: 131
+Charlie1: 130
+Charlie0: 129
+[       OK ] HighScoreBoardTest.ConcurrentUpdates (31 ms)
+[----------] 1 test from HighScoreBoardTest (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"test_concurrency" end time: Jul 04 23:02 Central Europe Summer Time
+"test_concurrency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_server_client_connections
+4/4 Test: test_server_client_connections
+Command: "C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test/Debug/test_server_client_connections.exe"
+Directory: C:/Users/katka/source/nokia_homework_omer/multithreaded_rps/build/unit_test
+"test_server_client_connections" start time: Jul 04 23:02 Central Europe Summer Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\katka\source\nokia_homework_omer\multithreaded_rps\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ServerTest
+[ RUN      ] ServerTest.HighNumberOfClients
+[       OK ] ServerTest.HighNumberOfClients (2032 ms)
+[----------] 1 test from ServerTest (2032 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2032 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.13 sec
+----------------------------------------------------------
+Test Passed.
+"test_server_client_connections" end time: Jul 04 23:02 Central Europe Summer Time
+"test_server_client_connections" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Jul 04 23:02 Central Europe Summer Time
