@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\client\Debug\client.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\server\Debug\server.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\katka\source\fix_nokia_repo\multithreaded_rps_cpp\multithreaded_rps\build\Debug\launcher.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

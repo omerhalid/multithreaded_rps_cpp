@@ -18,3 +18,9 @@ add_subdirectory(unit_test)
 if(WIN32)
     add_definitions(-DWIN32_LEAN_AND_MEAN)
 endif()
+
+# Add the launcher executable
+add_executable(launcher main.cpp)
+
+# Specify the dependencies for the launcher (optional)
+add_dependencies(launcher server client)
