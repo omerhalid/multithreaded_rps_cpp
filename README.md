@@ -21,7 +21,12 @@ cmake ..
 cmake --build .
 
 **Run the Server and Client:**
-Open two terminal windows.
+You can either use the launcher.exe for client and server or you can open two terminal windows.
+
+To run the server: ./launcher server
+To run the client: ./launcher client
+**
+If you prefer to run two different exe you can do the following steps:**
 
 **In the first terminal, navigate to the build/server/Debug directory and run the server:**
 ./server
